@@ -17,3 +17,10 @@ Route::get('/contact', 'IndexController@contact');
 Route::get('/gallery', 'IndexController@gallery');
 Route::get('/services', 'IndexController@services');
 Route::get('/typo', 'IndexController@typo');
+
+//路由前缀
+Route::prefix('admin')->group(function(){
+    Route::namespace('Admin')->group(function(){
+       Route::get('/', 'IndexController@index');
+    });
+});

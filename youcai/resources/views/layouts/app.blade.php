@@ -54,12 +54,12 @@
                     <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
                         <nav class="cl-effect-11">
                             <ul class="nav navbar-nav">
-                                {{--<li><a href="{{ url('/') }}" data-hover="Home">主页</a></li>--}}
-                                {{--<li><a href="{{ url('/about') }}" data-hover="About">关于我们</a></li>--}}
-                                {{--<li><a href="{{ url('/services') }}" data-hover="Services">我们的服务</a></li>--}}
+                                {{--<li><a href="{{ url('/') }}" data-hover="Home">Home</a></li>--}}
+                                {{--<li><a href="{{ url('/about') }}" data-hover="About">About</a></li>--}}
+                                {{--<li><a href="{{ url('/services') }}" data-hover="Services">Services</a></li>--}}
                                 {{--<li><a href="{{ url('/typo') }}" data-hover="Codes">Codes</a></li>aa--}}
-                                {{--<li><a href="{{ url('/gallery') }}" data-hover="Gallery">图集展示</a></li>--}}
-                                {{--<li><a href="{{ url('/contact') }}" data-hover="Contact">联系我们</a></li>--}}
+                                {{--<li><a href="{{ url('/gallery') }}" data-hover="Gallery">Gallery</a></li>--}}
+                                {{--<li><a href="{{ url('/contact') }}" data-hover="Contact">Contact</a></li>--}}
                                 <li><a href="{{ url('/') }}">主页</a></li>
                                 <li><a href="{{ url('/about') }}">关于我们</a></li>
                                 <li><a href="{{ url('/services') }}">服务宗旨</a></li>
@@ -75,13 +75,10 @@
 
         </div>
         <div class="logo wow fadeInRight animated" data-wow-delay=".5s">
-            <h1><a href="{{ url('/') }}">Automotive <span>-</span> X</a></h1>
+            <h1><a href="{{ url('/') }}">成都宥彩生物科技有限公司<span></span></a></h1>
         </div>
-        <h2 class="animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms">Fusce
-            feugiat malesuada odio orbi nunc odio </h2>
-        <p class="animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms"> At cursus
-            nec luctus a lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna feugiat malesuada odio
-            orbi nunc odio gravida onec accumsan malesuada orci. </p>
+        <h2 class="animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms">成都宥彩生物科技有限公司简述</h2>
+        <p class="animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms">成都宥彩生物科技有限公司详情</p>
     </div>
 </div>
 <!-- //banner -->
