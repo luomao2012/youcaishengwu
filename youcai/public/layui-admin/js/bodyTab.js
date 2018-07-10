@@ -20,6 +20,8 @@ layui.define(["element","jquery"],function(exports){
 	//显示左侧菜单
 	if($(".navBar").html() == ''){
 		var _this = this;
+		//从接口获取菜单栏数据
+		
 		$(".navBar").html(navBar(navs)).height($(window).height()-230);
 		element.init();  //初始化页面元素
 		$(window).resize(function(){

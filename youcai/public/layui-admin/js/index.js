@@ -94,7 +94,7 @@ layui.config({
 	}
 	//判断是否处于锁屏状态(如果关闭以后则未关闭浏览器之前不再显示)
 	if(window.sessionStorage.getItem("lockcms") != "true" && window.sessionStorage.getItem("showNotice") != "true"){
-		showNotice();
+		// showNotice();
 	}
 	$(".showNotice").on("click",function(){
 		showNotice();
@@ -151,4 +151,11 @@ function donation(){
 			content : "<div style='padding:30px;overflow:hidden;background:#d2d0d0;'><img src='images/alipay.jpg'></div>"
 		}]
 	})
+}
+
+//退出登录
+function logout()
+{
+	var url = $('#logout').data('url');
+	window.location.href = url;
 }

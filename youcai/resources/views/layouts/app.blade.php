@@ -15,8 +15,9 @@
         } </script>
     <!-- //for-mobile-apps -->
     <link href="{{ asset('css/bootstrap.css')  }}" rel="stylesheet" type="text/css" media="all"/>
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-    <!-- js -->
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" media="all"/>
+@yield('link')
+<!-- js -->
     <script src="{{ asset('js/jquery-1.11.1.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.js') }}"></script>
     <!-- //js -->
@@ -75,10 +76,12 @@
 
         </div>
         <div class="logo wow fadeInRight animated" data-wow-delay=".5s">
-            <h1><a href="{{ url('/') }}">成都宥彩生物科技有限公司<span></span></a></h1>
+            <h1><a href="{{ url('/') }}">{{ $siteName ?? '成都宥彩生物科技有限公司' }}<span></span></a></h1>
         </div>
-        <h2 class="animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms">成都宥彩生物科技有限公司简述</h2>
-        <p class="animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms">成都宥彩生物科技有限公司详情</p>
+        <h2 class="animated wow fadeInUp animated animated" data-wow-duration="1200ms"
+            data-wow-delay="500ms">{{ $siteProfile ?? '成都宥彩生物科技有限公司简述' }}</h2>
+        <p class="animated wow fadeInUp animated animated" data-wow-duration="1200ms"
+           data-wow-delay="500ms">{{ $siteDescription ?? '成都宥彩生物科技有限公司详情' }}</p>
     </div>
 </div>
 <!-- //banner -->
@@ -99,24 +102,24 @@
                 </ul>
             </div>
             {{--<div class="col-md-3 footer-left wow fadeInLeft animated" data-wow-delay=".5s">--}}
-                {{--<h4>New Solutions</h4>--}}
-                {{--<ul>--}}
-                    {{--<li><a href="#"><span>&gt; </span>Notare quam littera</a></li>--}}
-                    {{--<li><a href="#"><span>&gt; </span>Malesuada rhoncus congue</a></li>--}}
-                    {{--<li><a href="#"><span>&gt; </span>Suspendisse finibus purus</a></li>--}}
-                    {{--<li><a href="#"><span>&gt; </span>Malesuada orci purus</a></li>--}}
-                    {{--<li><a href="#"><span>&gt; </span>Quisque ullamcorper tellus</a></li>--}}
-                {{--</ul>--}}
+            {{--<h4>New Solutions</h4>--}}
+            {{--<ul>--}}
+            {{--<li><a href="#"><span>&gt; </span>Notare quam littera</a></li>--}}
+            {{--<li><a href="#"><span>&gt; </span>Malesuada rhoncus congue</a></li>--}}
+            {{--<li><a href="#"><span>&gt; </span>Suspendisse finibus purus</a></li>--}}
+            {{--<li><a href="#"><span>&gt; </span>Malesuada orci purus</a></li>--}}
+            {{--<li><a href="#"><span>&gt; </span>Quisque ullamcorper tellus</a></li>--}}
+            {{--</ul>--}}
             {{--</div>--}}
             {{--<div class="col-md-6 ft-left wow fadeInRight animated" data-wow-delay=".5s">--}}
-                {{--<h4>Newsletter</h4>--}}
-                {{--<p>Proin congue metus mi, nec tempor tellus consectetur eget. Cum sociis natoque penatibus et magnis dis--}}
-                    {{--parturient montes.</p>--}}
-                {{--<form action="#" method="post">--}}
-                    {{--<input type="text" name="email" value="Enter Your Email" onfocus="this.value = '';"--}}
-                           {{--onblur="if (this.value == '') {this.value = 'Enter Your Email';}">--}}
-                    {{--<input type="submit" value="Subscribe">--}}
-                {{--</form>--}}
+            {{--<h4>Newsletter</h4>--}}
+            {{--<p>Proin congue metus mi, nec tempor tellus consectetur eget. Cum sociis natoque penatibus et magnis dis--}}
+            {{--parturient montes.</p>--}}
+            {{--<form action="#" method="post">--}}
+            {{--<input type="text" name="email" value="Enter Your Email" onfocus="this.value = '';"--}}
+            {{--onblur="if (this.value == '') {this.value = 'Enter Your Email';}">--}}
+            {{--<input type="submit" value="Subscribe">--}}
+            {{--</form>--}}
             {{--</div>--}}
             <div class="clearfix"></div>
         </div>
@@ -126,19 +129,19 @@
 </div>
 <div class="footer-copy">
     {{--<div class="container">--}}
-        {{--<p class="animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms">Copyright--}}
-            {{--&copy; 2016.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/"--}}
-                                                                           {{--target="_blank" title="模板之家">模板之家</a> ---}}
-            {{--Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>--}}
-        {{--<div class="copy-rights animated wow fadeInUp animated animated" data-wow-duration="1200ms"--}}
-             {{--data-wow-delay="500ms">--}}
-            {{--<ul>--}}
-                {{--<li><a href="#"><span class="fa"> </span></a></li>--}}
-                {{--<li><a href="#"><span class="tw"> </span></a></li>--}}
-                {{--<li><a href="#"><span class="g"> </span></a></li>--}}
-            {{--</ul>--}}
-            {{--<div class="clearfix"></div>--}}
-        {{--</div>--}}
+    {{--<p class="animated wow fadeInUp animated animated" data-wow-duration="1200ms" data-wow-delay="500ms">Copyright--}}
+    {{--&copy; 2016.Company name All rights reserved.More Templates <a href="http://www.cssmoban.com/"--}}
+    {{--target="_blank" title="模板之家">模板之家</a> ---}}
+    {{--Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>--}}
+    {{--<div class="copy-rights animated wow fadeInUp animated animated" data-wow-duration="1200ms"--}}
+    {{--data-wow-delay="500ms">--}}
+    {{--<ul>--}}
+    {{--<li><a href="#"><span class="fa"> </span></a></li>--}}
+    {{--<li><a href="#"><span class="tw"> </span></a></li>--}}
+    {{--<li><a href="#"><span class="g"> </span></a></li>--}}
+    {{--</ul>--}}
+    {{--<div class="clearfix"></div>--}}
+    {{--</div>--}}
     {{--</div>--}}
 </div>
 <!-- //footer -->

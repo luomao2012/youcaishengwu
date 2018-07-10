@@ -2,6 +2,10 @@
 
 @section('title', '主页')
 
+@section('link')
+    <link href="{{ asset('css/swipebox.css') }}" rel="stylesheet">
+@endsection
+
 @section('container')
 <div class="gallery">
     <div class="container">
@@ -10,7 +14,7 @@
             <div class="gallery-grids1 agile-33">
                 <div class="gallery-grid-left">
                     <div class="gallery-grid-left1">
-                        <a href="images/19.jpg" class="swipebox" title="Neque">
+                        <a href="{{ asset('images/19.jpg') }}" class="swipebox" title="Neque">
                             <img src="images/19.jpg" alt=" " class="img-responsive">
                             <div class="p-mask">
                                 <h4>Neque Porro</h4>
@@ -139,7 +143,7 @@
                 <div class="clearfix"></div>
             </div>
             <!-- swipe box js -->
-            <script src="js/jquery.swipebox.min.js"></script>
+            <script src="{{ asset('js/jquery.swipebox.min.js') }}"></script>
             <script type="text/javascript">
                 jQuery(function($) {
                     $(".swipebox").swipebox();

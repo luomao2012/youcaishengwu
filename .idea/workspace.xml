@@ -1,31 +1,798 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b29fcafd-bce6-4289-8fb4-915d4be5281f" name="Default" comment="" />
+    <list default="true" id="b29fcafd-bce6-4289-8fb4-915d4be5281f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/youcai/DB/CREATE_TABLE.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/youcai/app/Repositories/Contacts/RepositoryInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/youcai/app/Repositories/Eloquent/AdminRepository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/youcai/app/Repositories/Eloquent/Repository.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/youcai/public/layui-admin/login/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/youcai/public/layui-admin/login/css/simple-line-icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/youcai/resources/views/admin/index/main.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/youcai/resources/views/admin/layouts/default.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/youcai/resources/views/admin/login/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/youcai/resources/views/admin/setting/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/youcai/resources/views/admin/team/memberList.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/gallery.html" afterPath="$PROJECT_DIR$/frontend/gallery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/app/Http/Controllers/Admin/IndexController.php" afterPath="$PROJECT_DIR$/youcai/app/Http/Controllers/Admin/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/app/Http/Controllers/Controller.php" afterPath="$PROJECT_DIR$/youcai/app/Http/Controllers/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/app/Http/Controllers/IndexController.php" afterPath="$PROJECT_DIR$/youcai/app/Http/Controllers/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/youcai/app/Http/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/composer.json" afterPath="$PROJECT_DIR$/youcai/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/composer.lock" afterPath="$PROJECT_DIR$/youcai/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/config/app.php" afterPath="$PROJECT_DIR$/youcai/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/config/database.php" afterPath="$PROJECT_DIR$/youcai/config/database.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/public/layui-admin/js/bodyTab.js" afterPath="$PROJECT_DIR$/youcai/public/layui-admin/js/bodyTab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/public/layui-admin/js/index.js" afterPath="$PROJECT_DIR$/youcai/public/layui-admin/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/public/layui-admin/page/news/newsList.js" afterPath="$PROJECT_DIR$/youcai/public/layui-admin/page/news/newsList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/resources/views/admin/layouts/app.blade.php" afterPath="$PROJECT_DIR$/youcai/resources/views/admin/layouts/app.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/resources/views/contact.blade.php" afterPath="$PROJECT_DIR$/youcai/resources/views/contact.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/resources/views/gallery.blade.php" afterPath="$PROJECT_DIR$/youcai/resources/views/gallery.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/resources/views/layouts/app.blade.php" afterPath="$PROJECT_DIR$/youcai/resources/views/layouts/app.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/resources/views/services.blade.php" afterPath="$PROJECT_DIR$/youcai/resources/views/services.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/youcai/routes/web.php" afterPath="$PROJECT_DIR$/youcai/routes/web.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youcai/app/Http/Controllers/Admin/IndexController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="930">
+              <caret line="62" column="10" lean-forward="false" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+              <folding>
+                <element signature="e#46#79#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeamController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youcai/app/Http/Controllers/Admin/TeamController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+              <folding>
+                <element signature="e#46#74#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="memberList.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youcai/resources/views/admin/team/memberList.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="64" column="11" lean-forward="true" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+              <folding>
+                <element signature="e#212#1162#0#HTML" expanded="false" />
+                <element signature="e#1710#1734#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newsList.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/youcai/public/layui-admin/page/news/newsList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding>
+                <marker date="1531203007000" expanded="true" signature="2068:2099" ph="..." />
+                <marker date="1531203007000" expanded="true" signature="2362:2393" ph="..." />
+                <marker date="1531203007000" expanded="true" signature="8019:8027" ph="..." />
+                <marker date="1531203007000" expanded="true" signature="9121:9131" ph="..." />
+                <marker date="1531203007000" expanded="true" signature="9695:9703" ph="..." />
+                <marker date="1531203007000" expanded="true" signature="9838:9846" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="d17b69c581bfd02e3f57ccb99cfc9e751bc78ff0.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youcai/storage/framework/views/d17b69c581bfd02e3f57ccb99cfc9e751bc78ff0.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="60" column="51" lean-forward="true" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+              <folding>
+                <marker date="1531202823000" expanded="true" signature="323:1224" ph="..." />
+                <marker date="1531202823000" expanded="true" signature="358:587" ph="..." />
+                <marker date="1531202823000" expanded="true" signature="403:521" ph="..." />
+                <marker date="1531202823000" expanded="true" signature="622:708" ph="..." />
+                <marker date="1531202823000" expanded="true" signature="743:843" ph="..." />
+                <marker date="1531202823000" expanded="false" signature="795:819" ph="..." />
+                <marker date="1531202823000" expanded="true" signature="878:945" ph="..." />
+                <marker date="1531202823000" expanded="true" signature="980:1063" ph="..." />
+                <marker date="1531202823000" expanded="true" signature="1098:1206" ph="..." />
+                <marker date="1531202823000" expanded="true" signature="1263:2099" ph="..." />
+                <marker date="1531202823000" expanded="true" signature="1299:2088" ph="..." />
+                <marker date="1531202823000" expanded="true" signature="1322:1600" ph="..." />
+                <marker date="1531202823000" expanded="true" signature="1620:2022" ph="..." />
+                <marker date="1531202823000" expanded="true" signature="1637:2001" ph="..." />
+                <marker date="1531202823000" expanded="false" signature="1780:1796" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youcai/resources/views/admin/layouts/default.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layui-admin/js/nav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newsList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layui-admin/page/news/newsList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newsList.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layui-admin/page/news/newsList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2251">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1498205620000" expanded="true" signature="2056:2087" ph="..." />
+                <marker date="1498205620000" expanded="true" signature="2350:2381" ph="..." />
+                <marker date="1498205620000" expanded="true" signature="8007:8015" ph="..." />
+                <marker date="1498205620000" expanded="true" signature="9109:9119" ph="..." />
+                <marker date="1498205620000" expanded="true" signature="9683:9691" ph="..." />
+                <marker date="1498205620000" expanded="true" signature="9826:9834" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/youcai/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>presentGiftOrder</find>
+      <find>validate(</find>
+      <find>validate</find>
+      <find>showNotice</find>
+      <find>icon-loginout</find>
+      <find>navBar(</find>
+      <find>systemParameter</find>
+      <find>update</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/youcai/app/Http/Middleware/CheckLogin.php" />
+        <option value="$PROJECT_DIR$/youcai/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/youcai/public/layui-admin/login/css/app.css" />
+        <option value="$PROJECT_DIR$/youcai/public/layui-admin/login/css/simple-line-icons.php" />
+        <option value="$PROJECT_DIR$/youcai/public/layui-admin/login/css/bootstrap.php" />
+        <option value="$PROJECT_DIR$/../../scmagic/footish/appgate/db/mysql/t_gifts.php" />
+        <option value="$PROJECT_DIR$/youcai/config/app.php" />
+        <option value="$PROJECT_DIR$/youcai/app/Repositories/RepositoryInterface.php" />
+        <option value="$PROJECT_DIR$/youcai/app/Repositories/Contacts/RepositoryInterface.php" />
+        <option value="$PROJECT_DIR$/youcai/config/database.php" />
+        <option value="$PROJECT_DIR$/youcai/app/Repositories/Eloquent/AdminRepository.php" />
+        <option value="$PROJECT_DIR$/youcai/app/Repositories/Eloquent/Repository.php" />
+        <option value="$PROJECT_DIR$/youcai/.env" />
+        <option value="$PROJECT_DIR$/youcai/resources/views/admin/login/index.blade.php" />
+        <option value="$PROJECT_DIR$/youcai/app/Models/Admin.php" />
+        <option value="$PROJECT_DIR$/youcai/app/Http/Middleware/AdminCheckLogin.php" />
+        <option value="$PROJECT_DIR$/youcai/app/Http/Controllers/Admin/LoginController.php" />
+        <option value="$PROJECT_DIR$/youcai/public/layui-admin/js/index.js" />
+        <option value="$PROJECT_DIR$/youcai/resources/views/admin/layouts/default.blade.php" />
+        <option value="$PROJECT_DIR$/youcai/app/Http/Controllers/API/SettingController.php" />
+        <option value="$PROJECT_DIR$/youcai/public/layui-admin/js/bodyTab.js" />
+        <option value="$PROJECT_DIR$/youcai/resources/views/admin/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/youcai/app/Models/Base.php" />
+        <option value="$PROJECT_DIR$/youcai/resources/views/admin/setting/index.blade.php" />
+        <option value="$PROJECT_DIR$/youcai/app/Http/Controllers/Admin/SettingController.php" />
+        <option value="$PROJECT_DIR$/youcai/resources/views/contact.blade.php" />
+        <option value="$PROJECT_DIR$/youcai/app/Models/Setting.php" />
+        <option value="$PROJECT_DIR$/youcai/app/Http/Controllers/Controller.php" />
+        <option value="$PROJECT_DIR$/youcai/app/Http/Controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/youcai/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/youcai/resources/views/admin/index/main.blade.php" />
+        <option value="$PROJECT_DIR$/youcai/DB/CREATE_TABLE.sql" />
+        <option value="$PROJECT_DIR$/youcai/app/Http/Controllers/Admin/IndexController.php" />
+        <option value="$PROJECT_DIR$/youcai/routes/web.php" />
+        <option value="$PROJECT_DIR$/youcai/app/Http/Controllers/Admin/TeamController.php" />
+        <option value="$PROJECT_DIR$/youcai/resources/views/admin/team/memberList.blade.php" />
+        <option value="$PROJECT_DIR$/youcai/public/layui-admin/page/news/newsList.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="17" />
+    <option name="y" value="23" />
+    <option name="width" value="1255" />
+    <option name="height" value="719" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="youcaishengwu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youcaishengwu" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="youcaishengwu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youcaishengwu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="youcai" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="youcaishengwu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youcaishengwu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="youcai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="youcaishengwu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youcaishengwu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="youcai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layui-admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="youcaishengwu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youcaishengwu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="youcai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layui-admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="page" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="youcaishengwu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youcaishengwu" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="youcai" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layui-admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="page" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="news" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/youcai/app/Repositories/Contacts" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="b29fcafd-bce6-4289-8fb4-915d4be5281f" name="Default" comment="" />
       <created>1529046885018</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1529046885018</updated>
+      <workItem from="1530776685302" duration="734000" />
+      <workItem from="1530865809680" duration="7028000" />
+      <workItem from="1531015478602" duration="12199000" />
+      <workItem from="1531041842302" duration="18533000" />
+      <workItem from="1531185087095" duration="2973000" />
+      <workItem from="1531188678867" duration="2897000" />
+      <workItem from="1531201877531" duration="1169000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="45533000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="731" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/youcai/vendor/laravel/framework/src/Illuminate/Session/Store.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="422" column="32" lean-forward="false" selection-start-line="422" selection-start-column="22" selection-end-line="422" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="75" column="27" lean-forward="false" selection-start-line="75" selection-start-column="27" selection-end-line="75" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/app/Http/Middleware/AdminCheckLogin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/public/layui-admin/page/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="50" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="166" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layui-admin/page/systemParameter/systemParameter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="100" column="18" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="106" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layui-admin/js/bodyTab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="37" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/public/layui-admin/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/app/Http/Controllers/API/SettingController.php" />
+    <entry file="file://$PROJECT_DIR$/youcai/public/layui-admin/js/leftNav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/vendor/laravel/framework/src/Illuminate/Http/JsonResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/resources/views/admin/index/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="true" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/vendor/symfony/http-foundation/JsonResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="186" column="23" lean-forward="false" selection-start-line="186" selection-start-column="23" selection-end-line="186" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/public/layui-admin/js/bodyTab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layui-admin/page/systemParameter/systemParameter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-479">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layui-admin/json/systemParameter.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/public/layui-admin/js/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/public/layui-admin/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2505">
+          <caret line="159" column="31" lean-forward="false" selection-start-line="159" selection-start-column="31" selection-end-line="159" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/resources/views/admin/login/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="26" lean-forward="false" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/app/Models/Common.php" />
+    <entry file="file://$PROJECT_DIR$/youcai/app/Models/Base.php.php" />
+    <entry file="file://$PROJECT_DIR$/youcai/app/Models/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="43" lean-forward="true" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7804">
+          <caret line="2487" column="20" lean-forward="false" selection-start-line="2487" selection-start-column="20" selection-end-line="2487" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/resources/views/admin/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/app/Models/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/resources/views/admin/setting/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/app/Http/Controllers/Admin/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/resources/views/about.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-447">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/resources/views/gallery.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/app/Models/Setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/app/Http/Controllers/Admin/SettingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/resources/views/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8040">
+          <caret line="548" column="20" lean-forward="false" selection-start-line="548" selection-start-column="20" selection-end-line="548" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/app/Http/Controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/resources/views/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14565">
+          <caret line="990" column="18" lean-forward="true" selection-start-line="990" selection-start-column="18" selection-end-line="990" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="85" column="6" lean-forward="false" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/resources/views/admin/index/main.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/app/Models/Team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/DB/CREATE_TABLE.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/app/Http/Controllers/Admin/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="10" lean-forward="false" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+          <folding>
+            <element signature="e#46#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layui-admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layui-admin/js/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layui-admin/page/news/newsList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="70" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layui-admin/page/news/newsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2251">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1498205620000" expanded="true" signature="2056:2087" ph="..." />
+            <marker date="1498205620000" expanded="true" signature="2350:2381" ph="..." />
+            <marker date="1498205620000" expanded="true" signature="8007:8015" ph="..." />
+            <marker date="1498205620000" expanded="true" signature="9109:9119" ph="..." />
+            <marker date="1498205620000" expanded="true" signature="9683:9691" ph="..." />
+            <marker date="1498205620000" expanded="true" signature="9826:9834" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/resources/views/admin/layouts/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/storage/framework/views/d17b69c581bfd02e3f57ccb99cfc9e751bc78ff0.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="51" lean-forward="true" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="51" />
+          <folding>
+            <marker date="1531202823000" expanded="true" signature="323:1224" ph="..." />
+            <marker date="1531202823000" expanded="true" signature="358:587" ph="..." />
+            <marker date="1531202823000" expanded="true" signature="403:521" ph="..." />
+            <marker date="1531202823000" expanded="true" signature="622:708" ph="..." />
+            <marker date="1531202823000" expanded="true" signature="743:843" ph="..." />
+            <marker date="1531202823000" expanded="false" signature="795:819" ph="..." />
+            <marker date="1531202823000" expanded="true" signature="878:945" ph="..." />
+            <marker date="1531202823000" expanded="true" signature="980:1063" ph="..." />
+            <marker date="1531202823000" expanded="true" signature="1098:1206" ph="..." />
+            <marker date="1531202823000" expanded="true" signature="1263:2099" ph="..." />
+            <marker date="1531202823000" expanded="true" signature="1299:2088" ph="..." />
+            <marker date="1531202823000" expanded="true" signature="1322:1600" ph="..." />
+            <marker date="1531202823000" expanded="true" signature="1620:2022" ph="..." />
+            <marker date="1531202823000" expanded="true" signature="1637:2001" ph="..." />
+            <marker date="1531202823000" expanded="false" signature="1780:1796" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/app/Http/Controllers/Admin/TeamController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#46#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/resources/views/admin/team/memberList.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="64" column="11" lean-forward="true" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+          <folding>
+            <element signature="e#212#1162#0#HTML" expanded="false" />
+            <element signature="e#1710#1734#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/youcai/public/layui-admin/page/news/newsList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <marker date="1531203007000" expanded="true" signature="2068:2099" ph="..." />
+            <marker date="1531203007000" expanded="true" signature="2362:2393" ph="..." />
+            <marker date="1531203007000" expanded="true" signature="8019:8027" ph="..." />
+            <marker date="1531203007000" expanded="true" signature="9121:9131" ph="..." />
+            <marker date="1531203007000" expanded="true" signature="9695:9703" ph="..." />
+            <marker date="1531203007000" expanded="true" signature="9838:9846" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
